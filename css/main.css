@@ -28,8 +28,8 @@ sup {
 	font-size: 11px;
 }
 @font-face {
-	font-family: "CrimsonSemiBold";
-	src: ('../fonts/Crimson-Semibold.otf');	
+	font-family: CrimsonSemiBold;
+	src: url('../fonts/CrimsonSemibold.otf');	
 }
 /*nav*/
 nav {
@@ -75,7 +75,7 @@ header {
 	text-align: center;
 	margin: 0 auto;
 	padding: 6px 0;
-	font-family: "Crimson SemiBold", "Times New Roman", Georgia, serif;
+	font-family: "CrimsonSemiBold", "Times New Roman", Georgia, serif;
 }
 header h1 {
 	font-weight: 500;
@@ -105,7 +105,7 @@ header h5 {
 	color: #369;
 	font-weight: bold;
 	line-height: 1.5em;
-	margin: 0 0 10px 10;
+	margin: 0 0 10px 10px;
 }
 .products h3 span {
 	text-decoration: underline;
@@ -306,7 +306,7 @@ header h5 {
 .quotes h3 {
 	color: #888;
 	font-weight: normal;
-	font-family: "CrimsonRomanItalic", "Times New Roman". serif;
+	font-family: "CrimsonRomanItalic", "Times New Roman", serif;
 	font-style: italic;
 	font-size: 22px;
 	margin: 35px 0 10px;
@@ -346,3 +346,133 @@ header h5 {
 }
 
 /*offerings*/
+.offerings h2 {
+	font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+	color: #232323;
+	font-size: 48px;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 1.1em;
+	letter-spacing: -1px;
+	text-align: center;
+	margin: 30px 0;
+
+}
+.main-offerings {
+	width: 570px;
+	height: 213px;
+	clear: both;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.main-offerings a {
+	width: 160px;
+	margin: 5px;
+	float: left;
+	padding: 0 10px;
+	text-decoration: none;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+	text-align: center;
+	line-height: 1.5em;
+}
+.main-offerings h3 {
+	font-size: 21px;
+	margin: 3px 0 0 10px;
+	color: #222;
+	font-weight: bold;
+}
+
+.main-offerings h3:hover {
+	color: #69C;
+}
+.main-offerings h4 {
+	margin: 5px 0;
+	font-size: 14px;
+	color: #C00;
+}
+.main-offerings p {
+	color: #666;
+	font-size: 12px;
+	line-height: 1.4em;
+	margin-top: 0;
+}
+.offerings .column h3,
+.offerings .column-end h3 {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #e8e8e8;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+	font-size: 14px;
+	margin: 5px 0;
+	color: #c00;
+}
+
+.offerings .column {
+	float: left;
+	width: 300px;
+	padding: 0;
+	margin-right: 30px;
+	margin-left: 95px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.offerings .column-end {
+	float: left;
+	width: 300px;
+	padding: 0;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+.offerings .column a,
+.offerings .column-end a {
+	font-size: 22px;
+	font-weight: bold;
+	font-style: normal;
+	color: #222;
+}
+
+.offerings .column li,
+.offerings .column-end li {
+	padding: 8px 0;
+	font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+	list-style-type: none;
+	margin: 0;
+	font-size: 12px;
+
+}
+
+.offerings .column small,
+.offerings .column-end small {
+	color: #666;
+	font-size: 12px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+
+}
+/**footer**/
+footer {
+	text-align: center;
+	display: block;
+	line-height: 1.5em;
+}
+footer h3 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+	font-size: 14px;
+	margin: 5px 0;
+	color: #C00;
+}
+footer li {
+	list-style-type: none;
+	font-size: 12px;
+	margin: 0;
+	padding: 5px 0;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+footer p {
+	font-size: 10px;
+	color: #999;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+	margin-top: 50px;
+}
