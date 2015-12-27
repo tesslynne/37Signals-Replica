@@ -476,3 +476,68 @@ footer p {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
 	margin-top: 50px;
 }
+
+@media (max-width: 640px) {
+	header {
+		width: 100%;
+	}
+	section {
+		width: auto;
+	}
+	.header h1, .customers h2, .manifesto h2 {
+		font-size: 25px;
+	}
+	.customers p, .rework, .offerings, .meet a {
+		display: none;
+	}
+
+}
+
+@media (max-width: 572px) {
+	header {
+		width: 100%;
+	}
+	section {
+		width: auto;
+	}
+}
+
+@media (max-width: 420px) {
+	header h1 {
+		font-size: 25px;
+		width: 100%;
+	}
+	header h5 {
+		font-size: 20px;
+		line-height: 1em;
+	}
+	.customers h2, .customers p, .manifesto h2 {
+		font-size: 16px;
+		line-height: 1em;
+	}
+	
+	.meet, .arrow-left, .globe, .rework, .quotes, .offerings {
+		display: none;
+	}
+	}
+	.customers img, .column.end {
+		display: none;
+	}
+}
+
+@media (max-width: 360px) {
+	header h1, .customers h2, .customers p, .manifesto h2 {
+		font-size: 14px;
+		width: 100%;
+	}
+	.manifesto h3 {
+		font-size: 40px;
+	}
+	.manifesto h4 {
+		font-size: 12px;
+	}
+	.manifesto p {
+		display: none;
+		}
+
+}
